@@ -8,20 +8,6 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <Button
-        android:id="@+id/btn_get_token"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Get token" />
-
-    <EditText
-        android:id="@+id/et_token"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_drawble"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="300dp"
@@ -35,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="SSSCB"
+        android:text="S^3CB"
         android:textColor="#FFFFFF"
         android:textFontWeight="20"
         android:textSize="36sp" />
@@ -43,7 +29,7 @@
     <EditText
         android:id="@+id/et_username"
         android:layout_width="250dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
         android:background="@drawable/btn_drawble"
@@ -58,7 +44,7 @@
     <EditText
         android:id="@+id/et_password"
         android:layout_width="250dp"
-        android:layout_height="35dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/btn_drawble"
@@ -70,14 +56,25 @@
         android:paddingTop="30px"
         android:textAlignment="center" />
 
+    <CheckBox
+        android:id="@+id/remeber_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Remeber Me"
+        android:textColor="#FFFFFF" />
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="64dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/btn_drawble"
+        android:minHeight="48dp"
         android:text="Login"
         android:textColor="#0B0B0B" />
 

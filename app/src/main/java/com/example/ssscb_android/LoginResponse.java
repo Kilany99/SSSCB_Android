@@ -17,6 +17,8 @@ public class LoginResponse {
     public LoginResponse(String UserId, String Password) {
         this.UserId = UserId;
         this.Password = Password;
+        this.ResponseCode = "";
+        this.ResponseMessage = "" ;
     }
 
     public String getUserId() {
